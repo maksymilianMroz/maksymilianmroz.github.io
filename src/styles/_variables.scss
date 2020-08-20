@@ -1,2 +1,17 @@
-$primary-color: #282c34;
-$secondary-color: #61dafb;
+/* VARIABLES LIST */
+$basic-font-color: rgba(255, 255, 255, 1);
+$bg-color: rgb(20, 27, 39);
+$bg-color-lighter: #282d37;
+// $bg-color: rgba(33, 39, 49, 1);
+$gradient-font-color: linear-gradient(
+    to right,
+    rgba(255, 243, 112, 1) 0%,
+    rgba(227, 60, 38, 1) 61%,
+    rgba(227, 60, 38, 1) 62%
+);
+$gradient-font-color-bottom: linear-gradient(
+    to bottom,
+    rgba(255, 243, 112, 1) 0%,
+    rgba(227, 60, 38, 1) 61%,
+    rgba(227, 60, 38, 1) 62%
+);

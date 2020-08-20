@@ -1,8 +1,53 @@
+@import "../assets/fonts.css";
 @import "../styles/variables";
 
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: $secondary-color;
+    background-color: blue;
+    font-family: "Khand", sans-serif;
+    scroll-behavior: smooth;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+/* SCROLLBARS */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+::-webkit-scrollbar-thumb {
+    background: #e33226;
+    border: 0px none $bg-color;
+    border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #e33226;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #e33226;
+}
+::-webkit-scrollbar-track {
+    background: $bg-color;
+    border: 0px none #ffffff;
+}
+::-webkit-scrollbar-track:hover {
+    background: $bg-color;
+}
+::-webkit-scrollbar-track:active {
+    background: $bg-color;
+}
+::-webkit-scrollbar-corner {
+    background: transparent;
 }
