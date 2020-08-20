@@ -1,5 +1,9 @@
 @import "../../styles/variables";
 
 .TextSection {
-    color: red;
+    background-color: $bg-color;
+
+    h1 {
+        color: red;
+    }
 }
