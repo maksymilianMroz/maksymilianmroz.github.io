@@ -2,8 +2,34 @@
 
 .TextSection {
     background-color: $bg-color;
+    display: flex;
+    justify-content: center;
 
-    h1 {
-        color: red;
+    .section {
+        position: relative;
+        max-width: 300px;
+
+        &::before {
+            position: absolute;
+            left: -10px;
+            top: 0;
+            display: inline-block;
+            content: "";
+            height: 100%;
+            width: 5px;
+            background: $gradient-font-color-bottom;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+
+    .section__header {
+        background: $gradient-font-color-right;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-transform: uppercase;
+        display: inline-block;
+        line-height: 36px;
+        font-size: 47px;
+        cursor: pointer;
     }
 }
