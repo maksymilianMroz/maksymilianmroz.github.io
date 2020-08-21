@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './TextSection.module.scss';;
+import classes from './TextSection.module.scss';
 
 const TextSection = () => {
     return (
