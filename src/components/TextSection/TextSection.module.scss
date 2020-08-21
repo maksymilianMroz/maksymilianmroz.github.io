@@ -4,11 +4,12 @@
     background-color: $background-color;
     color: $basic-font-color;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 
     .section {
         position: relative;
         max-width: 300px;
+        padding-left: 6px;
 
         &::before {
             position: absolute;
@@ -48,7 +49,7 @@
     }
 
     .section__content__one {
-        margin: 0 0 5px;
+        margin: 0 10px 5px 0;
         font-size: 20px;
         text-align: justify;
         position: relative;
@@ -56,7 +57,32 @@
 
     .section__content__two {
         font-size: 19px;
-        margin: 0;
+        margin: 0 10px 5px 0;
+        text-align: justify;
         font-weight: 100;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .TextSection {
+        justify-content: center;
+
+        .section {
+            max-width: 570px;
+
+            &::before {
+            }
+        }
+
+        .section__header {
+            &::after {
+            }
+        }
+
+        .section__content__one {
+        }
+
+        .section__content__two {
+        }
     }
 }
