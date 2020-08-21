@@ -4,7 +4,7 @@
     background-color: $background-color;
     color: $basic-font-color;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 160px 0;
 
     .section {
@@ -14,7 +14,7 @@
 
         &::before {
             position: absolute;
-            left: -10px;
+            left: -6px;
             top: 0;
             display: inline-block;
             content: "";
@@ -67,12 +67,11 @@
 
 @media screen and (min-width: 768px) {
     .TextSection {
-        justify-content: center;
-
         .section {
             max-width: 570px;
 
             &::before {
+                left: -10px;
             }
         }
 
