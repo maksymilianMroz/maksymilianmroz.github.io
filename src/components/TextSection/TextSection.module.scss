@@ -1,7 +1,8 @@
 @import "../../styles/variables";
 
 .TextSection {
-    background-color: $bg-color;
+    background-color: $background-color;
+    color: $basic-font-color;
     display: flex;
     justify-content: center;
 
@@ -24,12 +25,38 @@
 
     .section__header {
         background: $gradient-font-color-right;
+        position: relative;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         text-transform: uppercase;
         display: inline-block;
         line-height: 36px;
-        font-size: 47px;
+        font-size: 36px;
         cursor: pointer;
+
+        &::after {
+            position: absolute;
+            display: inline-block;
+            content: "";
+            height: 5px;
+            width: 100%;
+            bottom: -5px;
+            left: 0;
+            background: $gradient-font-color-right;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+
+    .section__content__one {
+        margin: 0 0 5px;
+        font-size: 20px;
+        text-align: justify;
+        position: relative;
+    }
+
+    .section__content__two {
+        font-size: 19px;
+        margin: 0;
+        font-weight: 100;
     }
 }

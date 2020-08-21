@@ -25,7 +25,7 @@ a:active {
 }
 ::-webkit-scrollbar-thumb {
     background: #e33226;
-    border: 0px none $bg-color;
+    border: 0px none $background-color;
     border-radius: 100px;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -35,14 +35,14 @@ a:active {
     background: #e33226;
 }
 ::-webkit-scrollbar-track {
-    background: $bg-color;
+    background: $background-color;
     border: 0px none #ffffff;
 }
 ::-webkit-scrollbar-track:hover {
-    background: $bg-color;
+    background: $background-color;
 }
 ::-webkit-scrollbar-track:active {
-    background: $bg-color;
+    background: $background-color;
 }
 ::-webkit-scrollbar-corner {
     background: transparent;
