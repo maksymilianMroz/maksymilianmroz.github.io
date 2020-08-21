@@ -2,13 +2,13 @@ import React from 'react';
 import './App.scss';
 
 import TextSection from '../components/TextSection/TextSection';
-import PortfolioSection from '../components/PortfolioSection/PortfolioSection';
+import Portfolio from '../components/Portfolio/Portfolio';
 
 function App() {
   return (
     <div className="App">
       <TextSection />
-      <PortfolioSection />
+      <Portfolio />
       <TextSection />
     </div>
   );
