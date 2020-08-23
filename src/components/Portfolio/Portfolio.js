@@ -7,7 +7,11 @@ const Portfolio = () => {
         <div className={classes.Portfolio}>
             <div className={classes.section}>
                 <h4 className={classes.portfolio__header}>My portfolio!</h4>
-                <PortfolioItem />
+                <div className={classes.portfolio__items}>
+
+                    <PortfolioItem />
+
+                </div>
             </div>
         </div>
     );

@@ -1,3 +1,18 @@
+@import "../../../styles/variables";
+
 .PortfolioItem {
-    color: green;
+    color: $basic-font-color;
+
+    .infoContainer {
+        color: red;
+    }
+
+    .infoContainer__header {
+    }
+
+    .infoContainer__description {
+    }
+
+    .infoContainer__links {
+    }
 }
