@@ -6,8 +6,8 @@
 
     .section {
         position: relative;
-        max-width: 300px;
-        padding-left: 6px;
+        max-width: 100%;
+        margin: 0 5px;
     }
 
     .portfolio__header {
@@ -25,7 +25,6 @@
 @media screen and (min-width: 768px) {
     .Portfolio {
         .section {
-            max-width: 100%;
         }
     }
 }
