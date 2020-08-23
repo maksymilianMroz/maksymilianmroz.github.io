@@ -9,6 +9,15 @@
     .infoContainer {
         color: red;
         padding: 30px;
+        background: $background-color;
+        border: 1px solid;
+        border-image-source: $gradient-font-color-right;
+        border-image-slice: 1;
+        transition: all 0.2s ease;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto 1fr;
+        cursor: default;
     }
 
     .infoContainer__header {
@@ -18,5 +27,7 @@
     }
 
     .infoContainer__links {
+        display: flex;
+        align-items: center;
     }
 }
