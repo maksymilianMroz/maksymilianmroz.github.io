@@ -4,8 +4,8 @@ import classes from './PortfolioItem.module.scss';
 const PortfolioItem = () => {
     return (
         <div className={classes.PortfolioItem}>
-            <div class={classes.infoContainer}>
-                <h2 class={classes.infoContainer__header}>
+            <div className={classes.infoContainer}>
+                <h2 className={classes.infoContainer__header}>
                     Test
                 </h2>
                 <p className={classes.infoContainer__description}>
