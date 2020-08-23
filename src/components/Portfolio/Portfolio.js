@@ -10,7 +10,10 @@ const Portfolio = () => {
                 <div className={classes.portfolio__items}>
 
                     <PortfolioItem />
-
+                    <PortfolioItem />
+                    <PortfolioItem />
+                    <PortfolioItem />
+                    
                 </div>
             </div>
         </div>
