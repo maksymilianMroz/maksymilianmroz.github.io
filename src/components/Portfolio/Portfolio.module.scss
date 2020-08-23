@@ -1,6 +1,16 @@
 @import "../../styles/variables";
 
-.PortfolioSection {
+.Portfolio {
     background-color: $background-color-lighter;
     color: $basic-font-color;
+
+    .section {
+        position: relative;
+        max-width: 300px;
+        padding-left: 6px;
+    }
+
+    .portfolio__header {
+        color: #fff;
+    }
 }

@@ -2,9 +2,11 @@ import React from 'react';
 import classes from './Portfolio.module.scss';
 
 const Portfolio = () => {
-    return(
+    return (
         <div className={classes.Portfolio}>
-            test
+            <div className={classes.section}>
+                <h4 className={classes.portfolio__header}>My portfolio!</h4>
+            </div>
         </div>
     );
 };
