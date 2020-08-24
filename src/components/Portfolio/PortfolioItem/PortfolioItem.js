@@ -12,8 +12,8 @@ const PortfolioItem = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris volutpat porttitor consectetur.
                 </p>
                 <div className={classes.infoContainer__links}>
-                    <a href="#">Github</a>
-                    <a href="#">Live</a>
+                    <a href="#" className={classes.repository__link}>Github</a>
+                    <a href="#" className={classes.live__link}>Live</a>
                 </div>
             </div>
         </div>

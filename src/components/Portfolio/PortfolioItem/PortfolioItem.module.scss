@@ -7,7 +7,6 @@
     width: 100%;
 
     .infoContainer {
-        color: red;
         padding: 30px;
         background: $background-color;
         border: 1px solid;
@@ -21,13 +20,25 @@
     }
 
     .infoContainer__header {
+        font-size: 24px;
     }
 
     .infoContainer__description {
+        font-size: 20px;
     }
 
     .infoContainer__links {
         display: flex;
         align-items: center;
+        font-size: 18px;
+    }
+
+    .repository__link {
+        color: #fff;
+        margin-right: 10px;
+    }
+
+    .live__link {
+        color: #fff;
     }
 }
