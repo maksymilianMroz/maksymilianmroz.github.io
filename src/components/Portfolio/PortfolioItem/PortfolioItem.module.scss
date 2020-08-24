@@ -1,0 +1,44 @@
+@import "../../../styles/variables";
+
+.PortfolioItem {
+    color: $basic-font-color;
+    margin: 20px 5px;
+    max-width: 700px;
+    width: 100%;
+
+    .infoContainer {
+        padding: 30px;
+        background: $background-color;
+        border: 1px solid;
+        border-image-source: $gradient-font-color-right;
+        border-image-slice: 1;
+        transition: all 0.2s ease;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto 1fr;
+        cursor: default;
+    }
+
+    .infoContainer__header {
+        font-size: 24px;
+    }
+
+    .infoContainer__description {
+        font-size: 20px;
+    }
+
+    .infoContainer__links {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+    }
+
+    .repository__link {
+        color: #fff;
+        margin-right: 10px;
+    }
+
+    .live__link {
+        color: #fff;
+    }
+}
