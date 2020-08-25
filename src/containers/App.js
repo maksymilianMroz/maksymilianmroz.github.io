@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.scss';
 
 import TextSection from '../components/TextSection/TextSection';
 import Portfolio from '../components/Portfolio/Portfolio';
 
-function App() {
+class App extends Component {
+  render() {
   return (
     <div className="App">
       <TextSection />
@@ -12,6 +13,7 @@ function App() {
       <TextSection />
     </div>
   );
+}
 }
 
 export default App;
