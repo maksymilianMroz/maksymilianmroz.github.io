@@ -6,92 +6,92 @@
     display: flex;
     justify-content: center;
     padding: 160px 0;
+}
 
-    .section {
-        position: relative;
-        max-width: 300px;
-        padding-left: 6px;
+.section {
+    position: relative;
+    max-width: 300px;
+    padding-left: 6px;
 
-        &::before {
-            position: absolute;
-            left: -6px;
-            top: 0;
-            display: inline-block;
-            content: "";
-            height: 100%;
-            width: 5px;
-            background: $gradient-font-color-bottom;
-            transition: all 0.3s ease-in-out;
-        }
+    &::before {
+        position: absolute;
+        left: -4px;
+        top: 0;
+        display: inline-block;
+        content: "";
+        height: 100%;
+        width: 5px;
+        background: $gradient-font-color-bottom;
+        transition: all 0.3s ease-in-out;
     }
+}
 
-    .section__header {
+.section__header {
+    background: $gradient-font-color-right;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 36px;
+    font-size: 42px;
+    margin-top: 12px;
+    cursor: pointer;
+    word-spacing: 20px;
+    width: min-intrinsic;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    display: table-caption;
+    display: -ms-grid;
+    -ms-grid-columns: min-content;
+
+    &::after {
+        position: absolute;
+        display: inline-block;
+        content: "";
+        height: 5px;
+        width: 100%;
+        bottom: -5px;
+        left: 0;
         background: $gradient-font-color-right;
-        position: relative;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        text-transform: uppercase;
-        display: inline-block;
-        line-height: 36px;
-        font-size: 42px;
-        margin-top: 12px;
-        cursor: pointer;
-        word-spacing: 20px;
-        width: min-intrinsic;
-        width: -webkit-min-content;
-        width: -moz-min-content;
-        width: min-content;
-        display: table-caption;
-        display: -ms-grid;
-        -ms-grid-columns: min-content;
-
-        &::after {
-            position: absolute;
-            display: inline-block;
-            content: "";
-            height: 5px;
-            width: 100%;
-            bottom: -5px;
-            left: 0;
-            background: $gradient-font-color-right;
-            transition: all 0.3s ease-in-out;
-        }
+        transition: all 0.3s ease-in-out;
     }
+}
 
-    .section__content__one {
-        margin: 0 10px 5px 0;
-        font-size: 20px;
-        text-align: justify;
-        position: relative;
+.section__content__one {
+    margin: 0 10px 5px 0;
+    font-size: 20px;
+    text-align: justify;
+    position: relative;
+}
+
+.section__content__one_color {
+    background-clip: padding-box;
+    background: #141b27;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 3px 5px 0;
+    display: inline-block;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        margin: -1px;
+        border-radius: 1px;
     }
+}
 
-    .section__content__one_color {
-        background-clip: padding-box;
-        background: #141b27;
-        font-weight: 700;
-        font-size: 22px;
-        padding: 3px 5px 0;
-        display: inline-block;
-
-        &::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            z-index: -1;
-            margin: -1px;
-            border-radius: 1px;
-        }
-    }
-
-    .section__content__two {
-        font-size: 19px;
-        margin: 0 10px 5px 0;
-        text-align: justify;
-        font-weight: 100;
-    }
+.section__content__two {
+    font-size: 19px;
+    margin: 0 10px 5px 0;
+    text-align: justify;
+    font-weight: 100;
 }
 
 @media screen and (min-width: 768px) {

@@ -7,24 +7,28 @@
     display: flex;
     justify-content: center;
     padding: 160px 0;
+}
 
-    .section {
-        position: relative;
-        max-width: 300px;
-        padding-left: 6px;
+.section {
+    position: relative;
+    max-width: 300px;
+    padding-left: 6px;
 
-        &::before {
-            position: absolute;
-            left: -6px;
-            top: 0;
-            display: inline-block;
-            content: "";
-            height: 100%;
-            width: 5px;
-            background: $gradient-font-color-bottom;
-            transition: all 0.3s ease-in-out;
-        }
+    &::before {
+        position: absolute;
+        left: -6px;
+        top: 0;
+        display: inline-block;
+        content: "";
+        height: 100%;
+        width: 5px;
+        background: $gradient-font-color-bottom;
+        transition: all 0.3s ease-in-out;
     }
+}
+
+.header {
+    font-size: 30px;
 }
 
 @media screen and (min-width: 768px) {
