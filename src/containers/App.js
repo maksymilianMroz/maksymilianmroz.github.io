@@ -12,6 +12,10 @@ class App extends Component {
       firstLineDecor: 'I love coding.',
       par: 'I live in Warsaw. Every day I try to learn as much as possible to be better frontend developer.',
       button: 'Find out more about me! 🔥'
+    },
+    lastSection: {
+      title: 'Contact',
+      
     }
   }
 
