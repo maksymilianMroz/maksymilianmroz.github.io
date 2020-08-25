@@ -35,6 +35,9 @@ class App extends Component {
         <Portfolio />
         <LastSection 
         title={this.state.lastSection.title}
+        info={this.state.lastSection.info}
+        shortSendText={this.state.lastSection.shortSendText}
+        mailAdress={this.state.lastSection.mailAdress}
         />
       </div>
     );
