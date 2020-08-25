@@ -3,6 +3,7 @@ import './App.scss';
 
 import TextSection from '../components/TextSection/TextSection';
 import Portfolio from '../components/Portfolio/Portfolio';
+import LastSection from '../components/LastSection/LastSection';
 
 class App extends Component {
   state = {
@@ -32,7 +33,9 @@ class App extends Component {
         button={this.state.firstSection.button}
         />
         <Portfolio />
-        <TextSection />
+        <LastSection 
+        title={this.state.lastSection.title}
+        />
       </div>
     );
   }
