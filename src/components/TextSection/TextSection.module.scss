@@ -95,24 +95,11 @@
 }
 
 @media screen and (min-width: 768px) {
-    .TextSection {
-        .section {
-            max-width: 570px;
+    .section {
+        max-width: 570px;
 
-            &::before {
-                left: -10px;
-            }
-        }
-
-        .section__header {
-            &::after {
-            }
-        }
-
-        .section__content__one {
-        }
-
-        .section__content__two {
+        &::before {
+            left: -10px;
         }
     }
 }

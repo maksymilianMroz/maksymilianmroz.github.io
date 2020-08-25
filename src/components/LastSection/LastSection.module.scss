@@ -9,7 +9,7 @@
     padding: 160px 0;
 }
 
-.section {
+.contactContainer {
     position: relative;
     max-width: 300px;
     padding-left: 6px;
@@ -27,18 +27,16 @@
     }
 }
 
-.header {
+.contactContainer__header {
     font-size: 30px;
 }
 
 @media screen and (min-width: 768px) {
-    .TextSection {
-        .section {
-            max-width: 570px;
+    .contactContainer {
+        max-width: 570px;
 
-            &::before {
-                left: -10px;
-            }
+        &::before {
+            left: -10px;
         }
     }
 }
