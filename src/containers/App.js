@@ -6,7 +6,6 @@ import Portfolio from '../components/Portfolio/Portfolio';
 
 class App extends Component {
   state = {
-    title: 'andrzej',
     firstSection: {
       title: 'Hey there.',
       firstLine: 'My name is Max.',
