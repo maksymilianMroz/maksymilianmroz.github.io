@@ -3,6 +3,7 @@ import './App.scss';
 
 import TextSection from '../components/TextSection/TextSection';
 import Portfolio from '../components/Portfolio/Portfolio';
+import LastSection from '../components/LastSection/LastSection';
 
 class App extends Component {
   state = {
@@ -12,6 +13,12 @@ class App extends Component {
       firstLineDecor: 'I love coding.',
       par: 'I live in Warsaw. Every day I try to learn as much as possible to be better frontend developer.',
       button: 'Find out more about me! 🔥'
+    },
+    lastSection: {
+      title: 'Contact',
+      info: 'Feel free to contact me anytime.',
+      shortSendText: 'Send e-mail to:',
+      mailAdress: 'mrozmaksymilian@gmail.com'
     }
   }
 
@@ -26,7 +33,12 @@ class App extends Component {
         button={this.state.firstSection.button}
         />
         <Portfolio />
-        <TextSection />
+        <LastSection 
+        title={this.state.lastSection.title}
+        info={this.state.lastSection.info}
+        shortSendText={this.state.lastSection.shortSendText}
+        mailAdress={this.state.lastSection.mailAdress}
+        />
       </div>
     );
   }
