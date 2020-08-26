@@ -82,18 +82,28 @@
     border-image: $gradient-font-color-right;
     border-image-slice: 1;
     transition: all 1s ease;
+    overflow: hidden;
 
     &::before {
         content: "";
         position: absolute;
-        top: 120%;
-        right: 0;
-        bottom: 0;
-        left: 110%;
-        z-index: -1;
-        margin: -1px;
+        // top: 120%;
+        // right: 0;
+        // bottom: 0;
+        // left: 110%;
+        // z-index: -1;
+        // margin: -1px;
+        // background: $gradient-font-color-right;
+        // transition: top 0.6s ease;
+
+        width: 400px;
+        height: 400px;
         background: $gradient-font-color-right;
-        transition: top 0.6s ease;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 40%;
+        animation: fill 7s ease-in-out infinite;
+        z-index: -1;
     }
 
     &:hover {
