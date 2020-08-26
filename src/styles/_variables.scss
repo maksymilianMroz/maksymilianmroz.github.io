@@ -18,14 +18,3 @@ $gradient-font-color-bottom: linear-gradient(
     rgba(227, 60, 38, 1) 61%,
     rgba(227, 60, 38, 1) 62%
 );
-
-@keyframes fill {
-    from {
-        top: 250px;
-        transform: translateX(-50%) rotate(0deg);
-    }
-    to {
-        top: -50px;
-        transform: translateX(-50%) rotate(360deg);
-    }
-}
