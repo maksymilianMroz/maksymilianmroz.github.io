@@ -78,10 +78,10 @@
     background-color: $background-color;
     cursor: pointer;
     z-index: 1;
-    border: 2px solid transparent;
+    border: 1px solid transparent;
     border-image: $gradient-font-color-right;
     border-image-slice: 1;
-    transition: all 0.8s ease;
+    transition: all 1s ease;
 
     &::before {
         content: "";
