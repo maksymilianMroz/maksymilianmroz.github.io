@@ -118,6 +118,16 @@
     margin: 0 10px 5px 0;
     text-align: justify;
     font-weight: 100;
+
+    .section__content__two_link {
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
+        background: $gradient-font-color-right;
+        color: $background-color;
+        font-weight: 700;
+        padding: 0 3px;
+    }
 }
 
 @media screen and (min-width: 768px) {
