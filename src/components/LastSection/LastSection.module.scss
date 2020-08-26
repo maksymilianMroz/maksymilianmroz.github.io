@@ -35,9 +35,26 @@
     font-size: 30px;
 }
 
+.contactContainer__info {
+    margin: 0 10px 5px 0;
+    font-size: 20px;
+    text-align: justify;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.contactContainer__shortSendText {
+    font-size: 19px;
+    margin: 0 10px 5px 0;
+    text-align: justify;
+    font-weight: 100;
+}
+
 @media screen and (min-width: 768px) {
     .contactContainer {
         max-width: 570px;
+        width: 100%;
 
         &::before {
             left: -10px;

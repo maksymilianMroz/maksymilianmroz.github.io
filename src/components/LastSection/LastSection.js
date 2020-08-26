@@ -7,7 +7,12 @@ const LastSection = (props) => {
             <div className={classes.contactContainer}>
                 <h2 className={classes.contactContainer__header}>{props.title}</h2>
                 <p className={classes.contactContainer__info}>{props.info}</p>
-                <p className={classes.contactContainer__shortSendText}>{props.shortSendText} <a href="#" className={classes.contactContainer__mailAdress}>{props.mailAdress}</a></p>
+                <p className={classes.contactContainer__shortSendText}>
+                    {props.shortSendText}
+                    <a href="#" className={classes.contactContainer__mailAdress}>
+                        {props.mailAdress}
+                    </a>
+                </p>
             </div>
         </div>
     );
