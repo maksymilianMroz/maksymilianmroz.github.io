@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1efcc45ee25e34b0321461938d42b571",
+    "revision": "cdd70b4f70282f3700eafdf5df8cfcf8",
     "url": "/maksymilianmroz.github.io/index.html"
   },
   {
-    "revision": "29266f2dc20e6d1e9d45",
-    "url": "/maksymilianmroz.github.io/static/css/main.768f50ae.chunk.css"
+    "revision": "a5628499f804dfe3d98a",
+    "url": "/maksymilianmroz.github.io/static/css/main.cfbfe23b.chunk.css"
   },
   {
     "revision": "610418933ee108bf5ff9",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/maksymilianmroz.github.io/static/js/2.cc0d45e6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "29266f2dc20e6d1e9d45",
-    "url": "/maksymilianmroz.github.io/static/js/main.86362809.chunk.js"
+    "revision": "a5628499f804dfe3d98a",
+    "url": "/maksymilianmroz.github.io/static/js/main.9cbbfa57.chunk.js"
   },
   {
     "revision": "86c9eead19b129267e30",
