@@ -17,7 +17,7 @@ class App extends Component {
     lastSection: {
       title: 'Contact',
       info: 'Feel free to contact me anytime.',
-      shortSendText: 'Send e-mail to:',
+      shortSendText: 'Send e-mail to: ',
       mailAdress: 'mrozmaksymilian@gmail.com'
     }
   }
