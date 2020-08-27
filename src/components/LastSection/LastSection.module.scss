@@ -51,6 +51,16 @@
     font-weight: 100;
 }
 
+.contactContainer__mailAdress {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(to right, #fff370 0%, #e33c26 61%, #e33c26 62%);
+    color: #141b27;
+    font-weight: 700;
+    padding: 0 3px;
+}
+
 @media screen and (min-width: 768px) {
     .contactContainer {
         max-width: 570px;
