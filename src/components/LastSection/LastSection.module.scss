@@ -7,6 +7,10 @@
     display: flex;
     justify-content: center;
     padding: 160px 0;
+    border-top: 10px solid;
+    border-image-source: $gradient-font-color-right;
+    border-image-slice: 1;
+    z-index: 1;
 }
 
 .contactContainer {
@@ -29,11 +33,54 @@
 
 .contactContainer__header {
     font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.contactContainer__socialGithub,
+.contactContainer__socialLinkedin {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 0 5px 5px 0;
+
+    svg {
+        background: $gradient-font-color-right;
+        color: $background-color;
+        height: 100%;
+        width: 100% !important;
+    }
+}
+
+.contactContainer__info {
+    margin: 0 10px 5px 0;
+    font-size: 20px;
+    text-align: justify;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.contactContainer__shortSendText {
+    font-size: 19px;
+    margin: 0 10px 0 0;
+    font-weight: 100;
+}
+
+.contactContainer__mailAdress {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(to right, #fff370 0%, #e33c26 61%, #e33c26 62%);
+    color: #141b27;
+    font-weight: 700;
+    padding: 0 3px;
 }
 
 @media screen and (min-width: 768px) {
     .contactContainer {
         max-width: 570px;
+        width: 100%;
 
         &::before {
             left: -10px;

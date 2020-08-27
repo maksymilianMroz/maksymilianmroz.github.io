@@ -5,6 +5,7 @@ import TextSection from '../components/TextSection/TextSection';
 import Portfolio from '../components/Portfolio/Portfolio';
 import LastSection from '../components/LastSection/LastSection';
 
+
 class App extends Component {
   state = {
     firstSection: {
@@ -17,7 +18,7 @@ class App extends Component {
     lastSection: {
       title: 'Contact',
       info: 'Feel free to contact me anytime.',
-      shortSendText: 'Send e-mail to:',
+      shortSendText: 'My mail adress: ',
       mailAdress: 'mrozmaksymilian@gmail.com'
     }
   }
