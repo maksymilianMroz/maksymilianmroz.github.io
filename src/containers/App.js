@@ -5,6 +5,7 @@ import TextSection from '../components/TextSection/TextSection';
 import Portfolio from '../components/Portfolio/Portfolio';
 import LastSection from '../components/LastSection/LastSection';
 
+
 class App extends Component {
   state = {
     firstSection: {

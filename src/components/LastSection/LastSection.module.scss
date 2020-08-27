@@ -34,6 +34,22 @@
 .contactContainer__header {
     font-size: 30px;
     margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.contactContainer__socialGithub,
+.contactContainer__socialLinkedin {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 0 5px 5px 0;
+
+    svg {
+        background: $gradient-font-color-right;
+        color: $background-color;
+        height: 100%;
+        width: 100% !important;
+    }
 }
 
 .contactContainer__info {
