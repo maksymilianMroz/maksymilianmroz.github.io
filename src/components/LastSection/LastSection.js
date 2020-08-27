@@ -12,12 +12,12 @@ const LastSection = (props) => {
             <div className={classes.contactContainer}>
                 <h2 className={classes.contactContainer__header}>{props.title}</h2>
 
-                <a className={classes.contactContainer__socialLinkedin}>
+                <a href="#" className={classes.contactContainer__socialLinkedin}>
                     <FontAwesomeIcon icon={['fab', 'linkedin']} />
-                    </a>
-                <a className={classes.contactContainer__socialGithub}>
+                </a>
+                <a href="#" className={classes.contactContainer__socialGithub}>
                     <FontAwesomeIcon icon={['fab', 'github']} />
-                    </a>
+                </a>
 
                 <p className={classes.contactContainer__info}>{props.info}</p>
                 <p className={classes.contactContainer__shortSendText}>
